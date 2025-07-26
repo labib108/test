@@ -1,7 +1,7 @@
-    document.getElementById("getAdvice").addEventListener("click", async () => {
+document.getElementById("getAdvice").addEventListener("click", async () => {
   const name = document.getElementById("name").value.trim();
   const email = document.getElementById("email").value.trim();
-  const caretype  = document.getElementById("adviceType").value;
+  const caretype = document.getElementById("adviceType").value;
 
   if (!name || !email || !caretype) {
     alert("Please fill all the fields.");

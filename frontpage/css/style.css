@@ -1,0 +1,138 @@
+body {
+      margin: 0;
+    }
+    .hero-section {
+      height: 440px;
+      background-color: #e0e4e9; /* Light gray */
+      
+      background-image: url('../images/bg.png');
+      background-repeat: no-repeat;
+      background-position: bottom left;
+      background-size: auto; 
+      }
+    .navbar-custom {
+      max-width: 1290px;
+      height: 60px;
+      margin: auto;
+    }
+    .navbar-nav .nav-link {
+      color: black !important;
+      font-weight: 500;
+    }
+    .nav-icon::after {
+      font-family: "Bootstrap-icons";
+      content: "\f282"; /* caret-down */
+      font-size: 0.75rem;
+      margin-left: 4px;
+    }
+    .btn-consult {
+      background-color: #0a6847;
+      color: #fff;
+      border-radius: 999px;
+      padding: 6px 20px;
+      font-weight: 500;
+    }
+    .hero-banner{
+      background-image: url('../images/hero-bg.png');
+      background-repeat: no-repeat;
+      background-position: 75% top;
+      background-size: auto; 
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+
+.doctor-card {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  transition: all 0.3s ease;
+  padding-bottom: 60px;
+}
+
+.doc-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px 20px 0 0;
+}
+
+.doc-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #f9f9f9;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-radius: 0 0 20px 20px;
+}
+
+.doc-info h5 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.doc-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.plus-btn {
+  width: 50px;
+  height: 50px;
+  background: #e9f5ec;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.plus-btn i {
+  color: #006400;
+  font-size: 20px;
+}
+
+.plus-btn:hover {
+  background: #198754;
+}
+
+.plus-btn:hover i {
+  color: #fff;
+}
+
+/* Social Icons */
+.doctor-card .social-icons {
+  position: absolute;
+  right: 20px;
+  bottom: 80px;
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  background: #fff;
+  padding: 10px 12px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-card .social-icons a {
+  color: #198754;
+  font-size: 18px;
+}
+
+.doctor-card.show .social-icons {
+  display: flex;
+}
+.doctor-card:hover .social-icons {
+  display: flex;
+}
+.newsletter-input::placeholder {
+  color: white;
+  opacity: 1;
+}
